@@ -44,26 +44,3 @@ body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Ro
 .muted { color: var(--muted); }
 .footer { display: flex; justify-content: flex-end; padding-top: 12px; }
 .footer button { padding: 8px 12px; border-radius: 10px; border: 1px solid #d2d2d7; background: #fff; }
-
-/* Resume Editor Styles */
-.resume-preview {
-  font-family: 'PingFang SC', 'Microsoft YaHei', 'SimSun', sans-serif;
-}
-
-@media print {
-  .resume-preview {
-    box-shadow: none !important;
-    margin: 0 !important;
-    padding: 0 !important;
-  }
-  
-  body {
-    print-color-adjust: exact;
-    -webkit-print-color-adjust: exact;
-  }
-  
-  @page {
-    size: A4;
-    margin: 2cm 2cm 2cm 2cm;
-  }
-}
