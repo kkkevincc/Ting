@@ -1,1 +1,10 @@
-node_modules
+node_modules/
+.DS_Store
+.env*
+*.log
+.cache/
+.vite/
+# keep dist tracked (for GH Pages), do not ignore
+# CV and legacy docs ignore
+CV/
+.trae/
